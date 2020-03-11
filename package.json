@@ -1,0 +1,31 @@
+{
+  "name": "bee-docs",
+  "version": "1.0.0",
+  "description": "🌈 整理一部分工作流文档",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bikedawuwang/bee-docs.git"
+  },
+  "author": "bikedawuwang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bikedawuwang/bee-docs/issues"
+  },
+  "homepage": "https://github.com/bikedawuwang/bee-docs#readme",
+  "devDependencies": {
+    "ghooks": "^2.0.4",
+    "validate-commit-msg": "^2.14.0"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    }
+  }
+}
